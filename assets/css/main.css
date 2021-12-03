@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* GENERAL */
+
+.section {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    padding: 0 10%;
+}
+
+/* END GENERAL */
+
+header#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 260px);
+    z-index: 2;
+    padding: 90px 130px;
+}
+
+header#top > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header#top > nav > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+header#top > nav > ul > li {
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 22px;
+    color: black;
+}
+
+header#top > nav > ul > li > a {
+    color: black;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background: url(./../media/intro.png) no-repeat bottom center / cover;
+}
+
+.badge {
+    position: absolute;
+    width: 166px;
+    height: 40px;
+    left: 130px;
+    top: 27vh;
+    background: #db0d05;
+    border-radius: 8px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+#foodSvg {
+    position: absolute;
+    width: 226.14px;
+    height: 150.34px;
+    left: 130px;
+    top: 37vh;
+    transform: rotate(-4deg);
+}
+
+#introTitle {
+    position: absolute;
+    width: 427.47px;
+    height: 170.73px;
+    left: 130px;
+    top: 51vh;
+}
+
+#greenRectangle {
+    padding: 10px;
+    width: 336px;
+    color: white;
+    font-size: 18px;
+    top: 73vh;
+    left: 150px;
+    position: absolute;
+    background: linear-gradient(90deg, #57782c -0.26%, rgba(87, 120, 44, 0) 100%);
+}
+
+#redButton {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.button {
+    background: radial-gradient(39.25% 2128.52% at 49.91% 57.79%, #db0d05 0%, #ff0000 100%);
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 47px;
+    cursor: pointer;
+}
+.button > i {
+    padding: 0 15px 0 0;
+}
+#eBookCover {
+    width: 72vw;
+    position: absolute;
+    right: 0vw;
+    top: 50%;
+    transform: translateY(-50%);
+}

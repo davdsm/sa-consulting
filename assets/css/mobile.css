@@ -1,0 +1,48 @@
+@media only screen and (max-width: 992px) {
+    header#top {
+        width: calc(100% - 160px);
+        padding: 90px 80px;
+    }
+    .badge {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header#top > nav {
+        display: block;
+        text-align: center;
+    }
+    header#top > nav > ul {
+        margin: -130px 0;
+        justify-content: center;
+    }
+    #foodSvg > svg {
+        width: 138px;
+    }
+    #foodSvg {
+        width: auto;
+        height: auto;
+        left: 50%;
+        top: 29vh;
+        transform: rotate(-4deg) translateX(-50%);
+    }
+    #introTitle > svg {
+        width: 100%;
+    }
+    #introTitle {
+        position: absolute;
+        width: 60%;
+        height: auto;
+        left: 55%;
+        top: 36vh;
+        transform: translateX(-50%);
+    }
+    #greenRectangle {
+        width: 196px;
+        top: 58vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #eBookCover {
+        display: none;
+    }
+}
