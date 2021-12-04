@@ -22,19 +22,11 @@
         width: auto;
         height: auto;
         left: 50%;
-        top: 29vh;
-        transform: rotate(-4deg) translateX(-50%);
-    }
-    #introTitle > svg {
-        width: 100%;
-    }
-    #introTitle {
-        position: absolute;
-        width: 60%;
-        height: auto;
-        left: 55%;
-        top: 36vh;
+        top: 34vh;
         transform: translateX(-50%);
+    }
+    #foodSvg > img {
+        width: 270px;
     }
     #greenRectangle {
         width: 196px;
@@ -43,6 +35,122 @@
         transform: translateX(-50%);
     }
     #eBookCover {
+        display: none;
+    }
+
+    #author {
+        flex-flow: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    #author > #author-image {
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .subtitle {
+        margin: 40px 0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #author > #author-info {
+        width: 97%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    #author > #author-info > #author-social {
+        justify-content: center;
+    }
+
+    #author > #author-info > #author-bio > p {
+        font-size: 20px;
+        line-height: 37px;
+        text-align: left;
+    }
+
+    #ebook {
+        margin: 130px 0 110px 0;
+    }
+    #ebook > main > #ebook-image {
+        display: none;
+    }
+    #ebook > header > h1 > br {
+        display: none;
+    }
+    #ebook > main > #ebook-form {
+        width: 100%;
+    }
+    #ebook > main > #ebook-form > form > .form-group {
+        width: 100%;
+    }
+    .button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #ebook > header > h1 {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #content {
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #content > main {
+        flex-flow: column;
+    }
+    #content > main > #content-image {
+        display: none;
+    }
+    #content > main > #content-bio {
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    #content > main > #content-bio > header > h1 {
+        font-size: 31px;
+        line-height: 41px;
+    }
+    #content > main > #content-bio > p {
+        font-size: 22px;
+        max-width: 420px;
+        line-height: 28px;
+    }
+
+    #index {
+        padding: 32px 11%;
+        width: auto;
+    }
+    #index > ul > li > span {
+        font-size: 30px;
+    }
+    #index > ul > li > article {
+        padding: 0 0 0 20px;
+    }
+    #index > ul > li > article > p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    #index > ul > li > article > p > br {
+        display: none;
+    }
+    #index > ul > li > article > header > h1 {
+        font-size: 19px;
+    }
+
+    #social > header > h1 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    #social > p {
+        font-size: 17px;
+        line-height: 33px;
+    }
+    #social > p > br {
         display: none;
     }
 }
