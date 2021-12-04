@@ -481,4 +481,56 @@ header#top > nav > ul > li > a {
     align-items: center;
 }
 
+#last > main > div:nth-child(1) {
+    width: 40%;
+}
+
+#last > main > div:nth-child(2) {
+    width: 60%;
+    text-align: center;
+}
+
+#last > main > div > header > h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    color: #000000;
+    margin: 0;
+}
+
+#last > main > div > p {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    margin: 45px 0;
+}
+
+#last > main > div > img {
+    width: 50%;
+}
+
+#last > main {
+    flex-flow: column-reverse;
+}
+
+#last > main > div:nth-child(2) {
+    width: 100%;
+    margin: 0 0 150px 0;
+}
+
+#last > main > div:nth-child(1) {
+    width: 100%;
+}
+
+#last > main > div > header > h1 {
+    font-size: 33px;
+    line-height: 37px;
+}
+
+#last > main > div > p {
+    font-size: 19px;
+    line-height: 32px;
+}
+
 /* End Last */
