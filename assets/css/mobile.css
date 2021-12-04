@@ -153,4 +153,40 @@
     #social > p > br {
         display: none;
     }
+
+    #newsletter > main {
+        border-radius: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+    #newsletter > main > #newsletter-form {
+        padding: 33px;
+        width: calc(100% - 66px);
+    }
+
+    #newsletter > main > #newsletter-form {
+        padding: 50px 50px 85px 50px;
+        width: calc(100% - 100px);
+    }
+
+    #newsletter > main > #newsletter-form > article > header > h1 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    #newsletter > main > #newsletter-form > article > h2 {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #newsletter > main > #newsletter-form > article {
+        padding: 0;
+    }
+
+    form > .form-group {
+        width: 100%;
+    }
 }
