@@ -473,6 +473,9 @@ header#top > nav > ul > li > a {
 #last {
     padding-top: 150px;
     padding-bottom: 150px;
+    border-bottom-left-radius: 100px;
+    background: white;
+    border-bottom-right-radius: 100px;
 }
 
 #last > main {
@@ -510,27 +513,83 @@ header#top > nav > ul > li > a {
     width: 50%;
 }
 
-#last > main {
-    flex-flow: column-reverse;
-}
-
-#last > main > div:nth-child(2) {
-    width: 100%;
-    margin: 0 0 150px 0;
-}
-
-#last > main > div:nth-child(1) {
-    width: 100%;
-}
-
-#last > main > div > header > h1 {
-    font-size: 33px;
-    line-height: 37px;
-}
-
-#last > main > div > p {
-    font-size: 19px;
-    line-height: 32px;
-}
-
 /* End Last */
+/* Start Footer */
+footer {
+    background: var(--main-green);
+    height: 660px;
+    margin: -190px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+footer > .round {
+    width: 486px;
+    height: 486px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    bottom: -28%;
+    position: absolute;
+}
+footer > .main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    flex-direction: column;
+}
+footer > .main > #footer-social {
+    padding: 0 0 20px 0;
+    color: white;
+}
+footer > .main > #footer-social > a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    margin: 0 8px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+footer > .main > #footer-terms {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 10px 0;
+}
+footer > .main > #footer-terms > a {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer > .main > #footer-copy > p {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+footer > .main > #footer-copy > p > b {
+    padding: 0 0 0 5px;
+}
+footer > .main > #footer-copy > span {
+    font-size: 14px;
+    line-height: 21px;
+    color: #274500;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+footer > .main > #footer-copy > span > a {
+    color: #274500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* End Footer */
