@@ -212,4 +212,12 @@
         font-size: 19px;
         line-height: 32px;
     }
+
+    #last {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        border-bottom-left-radius: 60px;
+        background: white;
+        border-bottom-right-radius: 60px;
+    }
 }
