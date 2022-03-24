@@ -3,21 +3,31 @@
         width: calc(100% - 160px);
         padding: 90px 80px;
     }
+
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
     .badge {
         left: 50%;
         transform: translateX(-50%);
     }
-    header#top > nav {
+
+    header#top>nav {
         display: block;
         text-align: center;
     }
-    header#top > nav > ul {
+
+    header#top>nav>ul {
         margin: -130px 0;
         justify-content: center;
     }
-    #foodSvg > svg {
+
+    #foodSvg>svg {
         width: 138px;
     }
+
     #foodSvg {
         width: auto;
         height: auto;
@@ -25,15 +35,34 @@
         top: 34vh;
         transform: translateX(-50%);
     }
-    #foodSvg > img {
+
+    #foodSvg>img {
         width: 270px;
     }
+
     #greenRectangle {
-        width: 196px;
-        top: 58vh;
-        left: 50%;
+        width: 206px;
+        bottom: 29vh;
+        left: 48%;
         transform: translateX(-50%);
+        top: unset;
+        font-size: 14px;
     }
+
+    #author>#author-info>#author-job {
+        font-size: 12px;
+        margin: 0 0 0 0;
+    }
+
+    #author>#author-info>#author-bio {
+        margin: 40px 0 0 0;
+    }
+
+    #top>nav>a {
+        margin: -20px 0 20px 0;
+        display: block;
+    }
+
     #eBookCover {
         display: none;
     }
@@ -43,54 +72,107 @@
         justify-content: center;
         margin-top: 40px;
     }
-    #author > #author-image {
+
+    #author>#author-image {
         width: 60%;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
+
     .subtitle {
         margin: 40px 0;
         margin-left: 50%;
         transform: translateX(-50%);
+        font-size: 16px;
     }
-    #author > #author-info {
+
+    #author .subtitle {
+        margin: 40px 0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        width: 190px;
+        padding: 10px 19px;
+    }
+
+    form .form-group>input {
+        font-size: 13px;
+    }
+
+    #newsletter-form button {
+        width: 200px;
+    }
+
+    footer>.main>#footer-copy>p {
+        flex-direction: column;
+    }
+
+    #newsletter-form>.subtitle {
+        margin: 10px 0 36px 0;
+        transform: none;
+    }
+
+    #author>#author-info {
         width: 97%;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    #author > #author-info > #author-social {
+
+    #author>#author-info>#author-social {
         justify-content: center;
     }
 
-    #author > #author-info > #author-bio > p {
+    #author>#author-info>#author-bio>p {
         font-size: 20px;
         line-height: 37px;
         text-align: left;
     }
 
     #ebook {
-        margin: 130px 0 110px 0;
+        margin: 219px 0 110px 0;
     }
-    #ebook > main > #ebook-image {
-        display: none;
+
+    #ebook>main {
+        flex-flow: column-reverse;
     }
-    #ebook > header > h1 > br {
-        display: none;
-    }
-    #ebook > main > #ebook-form {
+
+    #ebook>main>#ebook-image {
+        margin: -180px 0 190px 0;
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
-    #ebook > main > #ebook-form > form > .form-group {
+
+    #ebook>main>div#ebook-image>img {
+        width: 420px;
+        margin: -213px 0 -70px 0;
+    }
+
+    #ebook>header>h1>br {
+        display: none;
+    }
+
+    #ebook>main>#ebook-form {
         width: 100%;
     }
+
+    #ebook>main>#ebook-form>form>.form-group {
+        width: 100%;
+    }
+
     .button {
         margin-left: 50%;
         transform: translateX(-50%);
+        width: 230px;
+        font-size: 12px;
+        height: 40px;
+        border-radius: 8px;
     }
-    #ebook > header > h1 {
+
+    #ebook>header>h1 {
         font-weight: 800;
         font-size: 20px;
     }
@@ -100,124 +182,243 @@
         padding-top: 50px;
         padding-bottom: 100px;
     }
-    #content > main {
+
+    #content>main {
         flex-flow: column;
     }
-    #content > main > #content-image {
-        display: none;
-    }
-    #content > main > #content-bio {
+
+    #content>main>#content-image {
+        /* display: none; */
         width: 100%;
-        padding: 0 0 0 0;
+        justify-content: center;
+        /* margin: 323px 0 -331px 0; */
     }
-    #content > main > #content-bio > header > h1 {
+
+    #content>main>#content-bio {
+        width: 100%;
+        /*  margin: -267px 0 300px 0; */
+        padding: 0;
+    }
+
+    #content>main>#content-bio>header>h1 {
         font-size: 31px;
         line-height: 41px;
     }
-    #content > main > #content-bio > p {
-        font-size: 22px;
+
+    #index>header>h1, #content>main>#content-bio>header>h1 {
+        text-align: center;
+    }
+
+
+    #redButton {
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    #content>main>#content-bio>p {
+        font-size: 15px;
         max-width: 420px;
-        line-height: 28px;
+        line-height: 19px;
+        text-align: center;
     }
 
     #index {
         padding: 32px 11%;
         width: auto;
     }
-    #index > ul > li > span {
+
+    #index>ul>li>span {
         font-size: 30px;
     }
-    #index > ul > li > article {
+
+    #index>ul>li>article {
         padding: 0 0 0 20px;
     }
-    #index > ul > li > article > p {
+
+    #index>ul>li>article>p {
         font-size: 17px;
         line-height: 21px;
     }
-    #index > ul > li > article > p > br {
+
+    #index>ul>li>article>p>br {
         display: none;
     }
-    #index > ul > li > article > header > h1 {
+
+    #index>ul>li>article>header>h1 {
         font-size: 19px;
     }
 
-    #social > header > h1 {
-        font-size: 25px;
-        line-height: 40px;
-        margin-bottom: 40px;
+    #social>header>h1 {
+        font-size: 22px;
+        line-height: 36px;
+        margin-bottom: 20px;
     }
-    #social > p {
-        font-size: 17px;
-        line-height: 33px;
+
+    #social>p {
+        font-size: 15px;
+        line-height: 19px;
     }
-    #social > p > br {
+
+    #social>p>br {
         display: none;
     }
 
-    #newsletter > main {
-        border-radius: 5px;
+    #newsletter>main {
+        border-radius: 10px;
         width: 100%;
         height: auto;
+        display: block;
     }
 
-    #newsletter > main > #newsletter-form {
-        padding: 33px;
-        width: calc(100% - 66px);
+    #newsletter>main>#newsletter-form {
+        padding: 50px 20px 65px 20px;
+        width: calc(100% - 40px);
+        display: block;
+        text-align: center;
     }
 
-    #newsletter > main > #newsletter-form {
-        padding: 50px 50px 85px 50px;
-        width: calc(100% - 100px);
+    form .accept-terms {
+        margin: 30px 0 33px 10px;
+        font-size: 11px;
+        text-align: left;
     }
 
-    #newsletter > main > #newsletter-form > article > header > h1 {
-        font-size: 24px;
+    #newsletter>main>#newsletter-form>article>header>h1 {
+        font-size: 30px;
         line-height: 36px;
         text-align: center;
     }
 
-    #newsletter > main > #newsletter-form > article > h2 {
+    #newsletter>main>#newsletter-form>article>h2 {
         font-size: 15px;
         font-weight: 400;
         text-align: center;
     }
 
-    #newsletter > main > #newsletter-form > article {
+    #newsletter>main>#newsletter-form>article {
         padding: 0;
     }
 
-    form > .form-group {
+    form>.form-group {
         width: 100%;
     }
 
-    #last > main {
-        flex-flow: column-reverse;
+    #last>main {
+        flex-flow: column;
     }
 
-    #last > main > div:nth-child(2) {
+    #last button {
+        margin-top: 310px;
+        margin-bottom: -310px;
+    }
+
+    #optin>#intro>img {
         width: 100%;
-        margin: 0 0 150px 0;
     }
 
-    #last > main > div:nth-child(1) {
+    #last>main>div:nth-child(2) {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    #last>main>div:nth-child(1) {
         width: 100%;
     }
 
-    #last > main > div > header > h1 {
-        font-size: 33px;
-        line-height: 37px;
+    #optin>#close {
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
     }
 
-    #last > main > div > p {
-        font-size: 19px;
-        line-height: 32px;
+    #last>main>div>header>h1 {
+        font-size: 31px;
+        line-height: 38px;
+        text-align: center;
+        padding: 0 8%;
+    }
+
+    #last>main>div>p {
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    #last>main>div>p br {
+        display: none;
     }
 
     #last {
         padding-top: 150px;
         padding-bottom: 150px;
-        border-bottom-left-radius: 60px;
+        border-bottom-left-radius: 40px;
         background: white;
-        border-bottom-right-radius: 60px;
+        border-bottom-right-radius: 40px;
     }
+
+
+    #optin>#intro>img {
+        width: 480px;
+    }
+
+    #lastterms {
+        padding: 0;
+    }
+
+
+    #lastterms li span:nth-child(1) {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    #lastterms>li {
+        display: block;
+    }
+
+    #author>#author-info>header>#author-name {
+        font-size: 37px;
+    }
+
+    #terms {
+        padding: 220px 10% 170px;
+        border-bottom-left-radius: 40px;
+        background: white;
+        border-bottom-right-radius: 40px;
+        position: relative;
+        z-index: 1;
+        line-height: 25px;
+    }
+
+    #terms #title h1 {
+        line-height: 1;
+    }
+
+    footer {
+        margin: -280px 0 0 0;
+    }
+
+    footer>.main>#footer-terms>a:nth-child(1) {
+        margin: 0 0 10px 0;
+        display: inline-block;
+    }
+
+    #newsletter {
+        margin: 0 0 0 -5%;
+        width: 90%;
+    }
+
+    #content>main>#content-image img {
+        width: 100%;
+    }
+
+    #index>.subtitle {
+        display: none;
+    }
+
+
 }
