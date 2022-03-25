@@ -372,7 +372,7 @@
     #lastterms li span:nth-child(1) {
         width: 100%;
         display: block;
-        text-align: center;
+        text-align: left;
         padding: 0 0 20px 0;
     }
 
@@ -420,5 +420,68 @@
         display: none;
     }
 
+    .section {
+        width: 86%;
+        padding: 0 7%;
+    }
+
+    #terms #f1, #terms #f2 {
+        padding: 0 20px;
+    }
+
+    #terms #f1 li {
+        padding: 0 0 20px 10px;
+    }
+
+    #optin>#close>.socialMedia {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #optin>#close>div.square>p {
+        word-break: keep-all;
+    }
+
+    #terms header#title * {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #terms header#title>h1 {
+        font-size: 25px;
+    }
+
+    #terms article header h2 {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #terms article p {
+        font-size: 14px !important;
+        margin: 16px 0 60px 0 !important;
+    }
+
+    #terms p, #terms article #title p {
+        font-size: 14px !important;
+    }
+
+    #terms article header p {
+        text-align: left;
+    }
+
+    #lastterms>li {
+        display: block;
+        padding: 0;
+        text-align: left;
+    }
+
+    #politica-page article ul {
+        padding: 0;
+    }
+
+    #terms article {
+        font-size: 14px;
+    }
 
 }

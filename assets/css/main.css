@@ -788,8 +788,8 @@ footer>.main>#footer-copy>span>a {
     left: 50%;
     transform: translateX(-50%);
     background: white;
-    color: #f00;
-    border: 1px solid #f00;
+    color: #DB0D05;
+    border: 1px solid #DB0D05;
     z-index: 1;
 }
 
@@ -948,6 +948,7 @@ footer>.main>#footer-copy>span>a {
     text-align: justify;
     color: #080808;
     margin: 0 0 0 0;
+    width: 100%;
 }
 
 #terms #f1 li {
@@ -992,6 +993,12 @@ footer>.main>#footer-copy>span>a {
 #politica-page article ul:not(ul#lastul)>li::before {
     content: '>>';
     margin: 0 10px 0 0;
+}
+
+#terms>article:last-child p:last-child b {
+    padding: 0;
+    margin: 0 !important;
+    display: inline-block !important;
 }
 
 /* END TERMS */
