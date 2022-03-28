@@ -449,7 +449,7 @@
     }
 
     #terms header#title>h1 {
-        font-size: 27px;
+        font-size: 25px;
     }
 
     #terms article header h2 {
@@ -459,7 +459,7 @@
     }
 
     #terms article:nth-child(2) {
-        margin: 60px 0 0 0;
+        margin: 33px 0 0 0;
     }
 
     #terms article p {
@@ -468,7 +468,8 @@
     }
 
     #terms p, #terms article #title p {
-        font-size: 14px !important;
+        font-size: 13px !important;
+        margin: 9px 0 0 0 !important;
     }
 
     #terms article header p {
